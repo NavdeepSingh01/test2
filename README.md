@@ -32,11 +32,6 @@ chmod +x bin/queuectl
 npm link
 ````
 
-After linking, you can run `queuectl` globally:
-
-```bash
-queuectl enqueue '{"command":"echo Hello"}'
-```
 
 -----
 
