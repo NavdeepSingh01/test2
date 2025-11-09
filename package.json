@@ -1,0 +1,17 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "queuectl": "./bin/queuectl"
+  },
+  "description": "CLI-based background job queue with workers, retries, backoff, DLQ, and persistence",
+  "scripts": {
+    "demo": "bash scripts/demo.sh"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "commander": "^12.1.0",
+    "nanoid": "^5.0.7"
+  }
+}
